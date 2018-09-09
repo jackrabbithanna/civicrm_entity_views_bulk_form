@@ -1,0 +1,9 @@
+name = CiviCRM Entity Views Bulk Forms
+description = Provides Views forms for bulk creation of CiviCRM entities
+core = 7.x
+
+dependencies[] = civicrm_entity
+dependencies[] = views
+dependencies[] = date_popup
+
+files[] = views/civicrm_entity_views_bulk_form_field_handler.inc
