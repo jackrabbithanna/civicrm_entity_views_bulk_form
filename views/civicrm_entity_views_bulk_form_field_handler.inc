@@ -67,7 +67,6 @@ class civicrm_entity_views_bulk_form_field_handler  extends views_handler_field 
         }
       }
     }
-    dsm($entity_field_metadata);
     return $entity_field_metadata;
   }
 
